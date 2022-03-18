@@ -1,0 +1,37 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.head{
+    background-color: aqua;
+    margin-top: 0px;
+    font-family: 'Lobster', cursive;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    font-size: 20px;
+    background-color: yellow;
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
+#start{
+    font-size: 18px;
+}
+
+canvas{
+    animation-name: ani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+
+@keyframes ani {
+    from{box-shadow: 5px 5px 20px green;}
+    to{box-shadow: 5px 5px 20px blue;}
+}
